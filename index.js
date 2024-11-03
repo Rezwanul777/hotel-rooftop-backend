@@ -13,7 +13,7 @@ app.use(cookieParser())
 app.use(bodyParser.json({ limit:'10mb' }))
 app.use(bodyParser.urlencoded({ extended: true, limit:'10mb' }))
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://hotel-rooftop-frontend-hv5e.vercel.app',
   credentials: true,
 }));
 
